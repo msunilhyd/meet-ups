@@ -8,4 +8,5 @@ routes.post('/groups/new', GroupController.createGroup);
 routes.post('/groups/:groupId/meetups/new', GroupController.createGroupMeetup);
 routes.post('/groups/:groupId/meetups', GroupController.getGroupMeetups);
 
+
 export default routes;
